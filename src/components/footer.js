@@ -9,53 +9,53 @@ import * as styles from './footer.module.css'
 const Footer = () => (
   <Container>
     <div className="footer-top">
-        <div className="footer-top-item">
-          <Img fixed="/images/logo.png" className="logo" />
-        </div>
-        <div className="footer-top-item">
-          <Link className="footer-item" to="/">
-            Home
-          </Link>
-          <Link className="footer-item" to="/about">
-            About
-          </Link>
-          <Link className="footer-item" to="/services">
-            Services
-          </Link>
-          <Link className="footer-item" to="/blog">
-            Blog
-          </Link>
-          <Link className="footer-item" to="/contact">
-            Contact
-          </Link>
-        </div>
-        <div className="footer-top-item">
-          <Link className="footer-item" to="/privacy">
-            Privacy Policy
-          </Link>
-          <Link className="footer-item" to="/terms">
-            Terms of Service
-          </Link>
-          <a className="footer-item" href="https://twitter.com/">
-            Twitter
-          </a>
-          <a className="footer-item" href="https://facebook.com/">
-            Facebook
-          </a>
-          <a className="footer-item" href="https://instagram.com/">
-            Instagram
-          </a>
-        </div>
-        <div className="footer-top-item email">
-          <h6>Get in touch</h6>
-          <a href="mailto:magicbyrd@gmail.com">nick@magicbyrd.com</a>
-          <a href="callto:+15618666912">(561) 866-6912</a>
-        </div>
+      <div className="footer-top-item">
+        <Img fixed="/images/logo.png" className="logo" />
       </div>
+      <div className="footer-top-item">
+        <Link className="footer-item" to="/">
+          Home
+        </Link>
+        <Link className="footer-item" to="/about">
+          About
+        </Link>
+        <Link className="footer-item" to="/services">
+          Services
+        </Link>
+        <Link className="footer-item" to="/blog">
+          Blog
+        </Link>
+        <Link className="footer-item" to="/contact">
+          Contact
+        </Link>
+      </div>
+      <div className="footer-top-item">
+        <Link className="footer-item" to="/privacy">
+          Privacy Policy
+        </Link>
+        <Link className="footer-item" to="/terms">
+          Terms of Service
+        </Link>
+        <a className="footer-item" href="https://twitter.com/">
+          Twitter
+        </a>
+        <a className="footer-item" href="https://facebook.com/">
+          Facebook
+        </a>
+        <a className="footer-item" href="https://instagram.com/">
+          Instagram
+        </a>
+      </div>
+      <div className="footer-top-item email">
+        <h6>Get in touch</h6>
+        <a href="mailto:magicbyrd@gmail.com">nick@magicbyrd.com</a>
+        <a href="callto:+15618666912">(561) 866-6912</a>
+      </div>
+    </div>
 
-      <div className="footer-bottom">
-        <span className="copyright">Copyright 2022 © All rights Reserved</span>
-      </div>
+    <div className="footer-bottom">
+      <span className="copyright">Copyright 2022 © All rights Reserved</span>
+    </div>
   </Container>
 )
 
