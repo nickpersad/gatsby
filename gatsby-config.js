@@ -36,8 +36,8 @@ if (!spaceId || !accessToken) {
 
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Contentful Starter",
-    description: "Official Contentful Gatsby Starter",
+    title: "Magic Byrd - UI/UX Consultants",
+    description: "Magic Byrd offers UI/UX Consultants, for medium to large organizations specializing in IoT.",
   },
   pathPrefix: "/gatsby-contentful-starter",
   plugins: [

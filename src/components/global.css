@@ -16,11 +16,15 @@
   src: url('/fonts/Inter-italic.var.woff2?v=3.19') format('woff2');
 }
 
+
 html {
   scroll-behavior: smooth;
 }
 
 html * {
+  font-family: "Barlow", sans-serif;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
 }
 
@@ -62,6 +66,26 @@ a:hover {
 
 a.active {
   font-weight: var(--bold);
+}
+
+ul {
+  list-style: none;
+}
+
+body::-webkit-scrollbar {
+  width: 0.45em;
+  background-color: #fff;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #625aff;
+}
+
+@media only screen and (max-width: 1200px) {
+  h1 {
+    font-size: 32px !important;
+    letter-spacing: 1px;
+  }
 }
 
 tt,
